@@ -1,0 +1,19 @@
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Linters and Type Checkers
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
