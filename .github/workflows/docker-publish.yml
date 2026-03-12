@@ -49,6 +49,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cache-aside-web:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/fastapi_cache_aside:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
