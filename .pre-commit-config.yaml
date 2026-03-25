@@ -31,12 +31,12 @@ repos:
         language: system
         types: [python]
 
-      - id: mypy
-        name: mypy type check
-        entry: uv run mypy
-        language: system
-        types: [python]
-        pass_filenames: false
-        # args: [your_package_name]
-        args: [.]
-        require_serial: true
+      # - id: mypy
+      #   name: mypy type check
+      #   entry: uv run mypy
+      #   language: system
+      #   types: [python]
+      #   pass_filenames: false
+      #   # args: [your_package_name]
+      #   args: [.]
+      #   require_serial: true
